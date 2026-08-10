@@ -1,6 +1,4 @@
 # Actividad-IAM
-## Video : 
-https://drive.google.com/drive/folders/1_ycWP2WYVu81d7hfb-vPW81mRN3i6sAl?usp=sharing
 # Proyecto Micro Seguridad — Módulo IAM
 
 Módulo de **Identidad y Acceso (IAM)** del sistema "Design Software". Se encarga de autenticar usuarios, administrar roles y permisos (RBAC), y controlar quién puede hacer qué dentro de la plataforma.
@@ -264,3 +262,6 @@ Luego entrar a `http://localhost:4200` y loguearse con el usuario admin creado e
 - Los `.zip` incluyen las carpetas `.git`, `node_modules` y `.angular` (caché) de cada repo — no son necesarias para entender el código, solo aumentan el peso del archivo.
 - El backend expone `/health` para verificar que está corriendo.
 - El acceso a la mayoría de endpoints de administración requiere el rol `SYSTEM_ADMIN`; el endpoint de auditoría de logins requiere el permiso específico `AUDIT_LOGIN_VIEW`.
+
+## Video : 
+https://drive.google.com/drive/folders/1_ycWP2WYVu81d7hfb-vPW81mRN3i6sAl?usp=sharing
